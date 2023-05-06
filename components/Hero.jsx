@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 function Hero() {
   return (
@@ -7,42 +7,43 @@ function Hero() {
       <div
         className="Montserrat hero min-h-screen"
         style={{
-          backgroundImage: `url(https://i.ibb.co/c8d0dww/PHOTO-2023-01-26-22-36-47.jpg)`,
+          backgroundImage: 'url(https://i.ibb.co/c8d0dww/PHOTO-2023-01-26-22-36-47.jpg)',
         }}
       >
-        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-overlay bg-opacity-60" />
         <div className="hero-content text-center text-neutral-content">
           <div>
-            <h1 className="text-8xl font-bold" style={{ color: "white" }}>
+            <h1 className="text-8xl font-bold" style={{ color: 'white' }}>
               Excelsior! Magazine
             </h1>
-            <h1 className="py-6 text-3xl" style={{ color: "white" }}>
+            <h1 className="py-6 text-3xl" style={{ color: 'white' }}>
               A journalism organization dedicated to bringing you a
               sophisticated analysis of everything in the world.
             </h1>
           </div>
         </div>
       </div>
-      <br></br>
-      <div style={{ backgroundColor: "#F5EFED" }} className="hero min-h-screen">
+      <br />
+      <div style={{ backgroundColor: '#F5EFED' }} className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="https://i.ibb.co/zRVPxsx/FRONT-COVER.png"
             className="max-w-sm rounded-lg shadow-2xl"
           />
           <div>
-            <h1 style={{ color: "#011638" }} className="text-5xl font-bold">
+            <h1 style={{ color: '#011638' }} className="text-5xl font-bold">
               Check Out Issue 3 Out Now!
             </h1>
-            <p style={{ color: "#011638" }} className="py-6">
-              Check out our third issue! Did you hear about Dream's face reveal?
-              What about Queen Elizabeth's Death? Or maybe you saw “There's a
-              pipebomb in your mailbox” on Twitter and you've yet to learn what
+            <p style={{ color: '#011638' }} className="py-6">
+              Check out our third issue! Did you hear about the face reveal of dream?
+              What about the death of Queen Elizabeth? Or maybe you saw “There's a
+              pipebomb in your mailbox” on Twitter and you have yet to learn what
               it was about. No matter your pick, one thing is clear - the world
               can be cruel.
             </p>
             <button
-              style={{ backgroundColor: "#011638" }}
+              type = "button"
+              style={{ backgroundColor: '#011638' }}
               className="btn btn-primary"
             >
               Read more
@@ -51,29 +52,28 @@ function Hero() {
         </div>
       </div>
       <br />
-      <section class="md:h-full flex items-center text-gray-600">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="text-center mb-12">
-            <h1 class="text-4xl md:text-6xl font-semibold">Who Are We?</h1>
+      <section className="md:h-full flex items-center text-gray-600">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="text-center mb-12">
+            <h1 className="text-4xl md:text-6xl font-semibold">Who Are We?</h1>
           </div>
           <div class="flex flex-wrap -m-4 justify-center">
             <div class="p-4 sm:w-1/2 lg:w-1/3">
               <div
                 className="card w-96 bg-base-100 shadow-xl"
-                style={{ backgroundColor: "#617fad" }}
+                style={{ backgroundColor: '#617fad' }}
               >
                 <div className="card-body">
-                  <h2 className="card-title" style={{ color: "white" }}>
+                  <h2 className="card-title" style={{ color: 'white' }}>
                     Our Mission
                   </h2>
                   <p className="text-white">
                     To provide a deeper perspective to the things of the world.
-                    ​
                   </p>
                 </div>
                 <Link href="/aboutus">
                   <button
-                    style={{ backgroundColor: "#153579" }}
+                    style={{ backgroundColor: '#153579' }}
                     className="btn btn-primary"
                   >
                     About Us
@@ -91,19 +91,19 @@ function Hero() {
             <div class="p-4 sm:w-1/2 lg:w-1/3">
               <div
                 className="card w-96 bg-base-100 shadow-xl"
-                style={{ backgroundColor: "#617fad" }}
+                style={{ backgroundColor: '#617fad' }}
               >
                 <div className="card-body">
-                  <h2 className="card-title" style={{ color: "white" }}>
+                  <h2 className="card-title" style={{ color: 'white' }}>
                     Our Vision
                   </h2>
                   <p className="text-white">
-                    To increase understanding through deep analysis.​
+                    To increase understanding through deep analysis.
                   </p>
                 </div>
                 <Link href="/aboutus">
                   <button
-                    style={{ backgroundColor: "#153579" }}
+                    style={{ backgroundColor: '#153579' }}
                     className="btn btn-primary"
                   >
                     About Us
@@ -121,13 +121,13 @@ function Hero() {
           </div>
         </div>
       </section>
-      <div class="text-center mb-12">
-        <h1 class="text-4xl md:text-6xl font-semibold">Our Issues</h1>
+      <div className="text-center mb-12">
+        <h1 className="text-4xl md:text-6xl font-semibold">Our Issues</h1>
       </div>
-      <div style={{ backgroundColor: "#F5EFED" }} className="hero min-h-screen">
+      <div style={{ backgroundColor: '#F5EFED' }} className="hero min-h-screen">
         <div
           className="carousel carousel-center p-4 space-x-4 bg-neutral rounded-box"
-          style={{ width: "auto", height: "500px" }}
+          style={{ width: 'auto', height: '500px' }}
         >
           <div className="carousel-item">
             <img
@@ -150,7 +150,7 @@ function Hero() {
         </div>
       </div>
       <div
-        style={{ backgroundColor: "#F5EFED" }}
+        style={{ backgroundColor: '#F5EFED' }}
         className="hero min-h-screen bg-base-200"
       >
         <div className="hero-content flex-col lg:flex-row">
@@ -163,12 +163,12 @@ function Hero() {
             <p className="py-6">
               There have must been times when we’ve had mind boggling thoughts
               inside us. Unquestionably intuitive. Are they a little concerning?
-              Maybe. Well, we’re committed to creating a space for students to
+              Maybe. Well, we are committed to creating a space for students to
               express themselves in order to strengthen our community. Come and
               join us as we explore unusual, but no less entertaining, topics!
             </p>
             <button
-              style={{ backgroundColor: "#153579" }}
+              style={{ backgroundColor: '#153579' }}
               className="btn btn-primary"
             >
               Check Out Our Spotify
