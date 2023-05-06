@@ -1,10 +1,10 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => (
   <footer
     className="footer bg-base-200 text-base-content"
-    style={{ color: "white", backgroundColor: "#ebe4d2" }}
+    style={{ color: 'white', backgroundColor: '#ebe4d2' }}
   >
     <div className="justify-self-center">
       <Link href="/">
@@ -18,21 +18,21 @@ const Footer = () => (
         />
       </Link>
     </div>
-    <div className="justify-self-center" style={{ color: "#153579" }}>
-      <a>CONTACT</a>
+    <div className="justify-self-center" style={{ color: '#153579' }}>
+      <a href="https://www.instagram.com/excelsiormagz/">CONTACT</a>
       <div className="grid grid-flow-col gap-4">
         <a href="https://www.instagram.com/excelsiormagz/">
           <img
             src="https://i.ibb.co/d2vBPhL/1.png"
             alt=""
-            style={{ width: "20px", height: "auto" }}
+            style={{ width: '20px', height: 'auto' }}
           />
         </a>
         <a href="mailto:excelsiormagsmailbox@gmail.com">
           <img
             src="https://i.ibb.co/ChdTZp1/5.png"
             alt=""
-            style={{ width: "20px", height: "auto" }}
+            style={{ width: '20px', height: 'auto' }}
           />
         </a>
       </div>
