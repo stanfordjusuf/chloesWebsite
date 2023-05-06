@@ -15,7 +15,7 @@ function Hero() {
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Excelsior! Magazine</h1>
             <h3 className="mb-5 text-white">
-              A journalism organization dedicated to bringing you a 
+              A journalism organization dedicated to bringing you a
               sophisticated analysis of everything in the world.
             </h3>
           </div>
