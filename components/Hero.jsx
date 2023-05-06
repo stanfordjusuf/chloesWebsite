@@ -45,9 +45,9 @@ function Hero() {
                 style={{ backgroundColor: '#011638' }}
                 className="btn btn-primary"
               >
-            </a>
               Read more
-            </button>
+              </button>
+            </a>
           </div>
         </div>
       </div>
