@@ -1,7 +1,7 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
-import { graphCMSImageLoader } from "../util";
+import { graphCMSImageLoader } from '../util';
 
 const Author = ({ author }) => (
   <div className="text-center mt-20 mb-8 p-12 relative rounded-lg bg-blue-600">
