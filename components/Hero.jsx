@@ -36,13 +36,13 @@ function Hero() {
             </h1>
             <p style={{ color: '#011638' }} className="py-6">
               Check out our third issue! Did you hear about the face reveal of dream?
-              What about the death of Queen Elizabeth? Or maybe you saw “There's a
+              What about the death of Queen Elizabeth? Or maybe you saw “There is a
               pipebomb in your mailbox” on Twitter and you have yet to learn what
               it was about. No matter your pick, one thing is clear - the world
               can be cruel.
             </p>
             <button
-              type = "button"
+              type="button"
               style={{ backgroundColor: '#011638' }}
               className="btn btn-primary"
             >
@@ -57,8 +57,8 @@ function Hero() {
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-6xl font-semibold">Who Are We?</h1>
           </div>
-          <div class="flex flex-wrap -m-4 justify-center">
-            <div class="p-4 sm:w-1/2 lg:w-1/3">
+          <div className="flex flex-wrap -m-4 justify-center">
+            <div className="p-4 sm:w-1/2 lg:w-1/3">
               <div
                 className="card w-96 bg-base-100 shadow-xl"
                 style={{ backgroundColor: '#617fad' }}
@@ -73,6 +73,7 @@ function Hero() {
                 </div>
                 <Link href="/aboutus">
                   <button
+                    type="button"
                     style={{ backgroundColor: '#153579' }}
                     className="btn btn-primary"
                   >
@@ -88,7 +89,7 @@ function Hero() {
                 </figure>
               </div>
             </div>
-            <div class="p-4 sm:w-1/2 lg:w-1/3">
+            <div className="p-4 sm:w-1/2 lg:w-1/3">
               <div
                 className="card w-96 bg-base-100 shadow-xl"
                 style={{ backgroundColor: '#617fad' }}
@@ -103,6 +104,7 @@ function Hero() {
                 </div>
                 <Link href="/aboutus">
                   <button
+                    type="button"
                     style={{ backgroundColor: '#153579' }}
                     className="btn btn-primary"
                   >
@@ -168,6 +170,7 @@ function Hero() {
               join us as we explore unusual, but no less entertaining, topics!
             </p>
             <button
+              type="button"
               style={{ backgroundColor: '#153579' }}
               className="btn btn-primary"
             >
