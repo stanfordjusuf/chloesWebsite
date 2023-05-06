@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import moment from "moment";
+import moment from 'moment';
 
-import { RichText } from "@graphcms/rich-text-react-renderer";
+import { RichText } from '@graphcms/rich-text-react-renderer';
 
 const PostDetail = ({ post }) => {
   const getContentFragment = (index, text, obj, type) => {
@@ -23,7 +23,7 @@ const PostDetail = ({ post }) => {
     }
 
     switch (type) {
-      case "heading-three":
+      case 'heading-three':
         return (
           <h3 key={index} className="text-xl font-semibold mb-4">
             {modifiedText.map((item, i) => (
@@ -31,7 +31,7 @@ const PostDetail = ({ post }) => {
             ))}
           </h3>
         );
-      case "paragraph":
+      case 'paragraph':
         return (
           <p key={index} className="mb-8">
             {modifiedText.map((item, i) => (
@@ -39,7 +39,7 @@ const PostDetail = ({ post }) => {
             ))}
           </p>
         );
-      case "heading-four":
+      case 'heading-four':
         return (
           <h4 key={index} className="text-md font-semibold mb-4">
             {modifiedText.map((item, i) => (
@@ -47,7 +47,7 @@ const PostDetail = ({ post }) => {
             ))}
           </h4>
         );
-      case "image":
+      case 'image':
         return (
           <img
             key={index}
@@ -102,7 +102,7 @@ const PostDetail = ({ post }) => {
                 />
               </svg>
               <span className="align-middle">
-                {moment(post.createdAt).format("MMM DD, YYYY")}
+                {moment(post.createdAt).format('MMM DD, YYYY')}
               </span>
             </div>
           </div>
