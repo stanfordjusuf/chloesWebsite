@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import Link from "next/link";
-import { getCategories } from "../services";
+import Link from 'next/link';
+import { getCategories } from '../services';
 
 const Header = () => {
   const [categories, setCategories] = useState([]);
@@ -16,7 +16,7 @@ const Header = () => {
     <>
       <div
         className="navbar sticky top-0 z-50 shadow"
-        style={{ background: "#ebe4d2" }}
+        style={{ background: '#ebe4d2' }}
       >
         <div className="navbar-start">
           <div className="dropdown">
@@ -44,10 +44,10 @@ const Header = () => {
               type="button"
               tabIndex={0}
               className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52"
-              style={{ background: "#f9f2ed" }}
+              style={{ background: '#f9f2ed' }}
             >
               <ul>
-                <li style={{ color: "#153579" }}>
+                <li style={{ color: '#153579' }}>
                   <Link href="/">
                     <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
                       Home
@@ -93,7 +93,7 @@ const Header = () => {
         </div>
         <div className="navbar-center hidden lg:flex ml-100">
           <ul className="menu menu-horizontal px-1">
-            <li style={{ color: "#153579" }}>
+            <li style={{ color: '#153579' }}>
               <Link href="/">
                 <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
                   Home
