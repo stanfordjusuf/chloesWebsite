@@ -13,7 +13,7 @@ function Hero() {
         <div className="hero-overlay" />
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold" style={{ backgroundColor: 'white' }}>Excelsior! Magazine</h1>
+            <h1 className="mb-5 text-5xl font-bold" style={{ color: 'white' }}>Excelsior! Magazine</h1>
             <h3 className="mb-5 text-white">
               A journalism organization dedicated to bringing you a
               sophisticated analysis of everything in the world.
