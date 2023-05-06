@@ -5,21 +5,19 @@ function Hero() {
   return (
     <div className="flex flex-col">
       <div
-        className="Montserrat hero min-h-screen"
+        className="hero min-h-screen mb-8"
         style={{
-          backgroundImage: 'url(https://i.ibb.co/c8d0dww/PHOTO-2023-01-26-22-36-47.jpg)',
+          backgroundImage: 'url("https://i.ibb.co/c8d0dww/PHOTO-2023-01-26-22-36-47.jpg")',
         }}
       >
-        <div className="hero-overlay bg-opacity-60" />
+        <div className="hero-overlay" />
         <div className="hero-content text-center text-neutral-content">
-          <div>
-            <h1 className="text-8xl font-bold" style={{ color: 'white' }}>
-              Excelsior! Magazine
-            </h1>
-            <h1 className="py-6 text-3xl" style={{ color: 'white' }}>
-              A journalism organization dedicated to bringing you a
+          <div className="max-w-md">
+            <h1 className="mb-5 text-5xl font-bold">Excelsior! Magazine</h1>
+            <h3 className="mb-5 text-white">
+              A journalism organization dedicated to bringing you a 
               sophisticated analysis of everything in the world.
-            </h1>
+            </h3>
           </div>
         </div>
       </div>
