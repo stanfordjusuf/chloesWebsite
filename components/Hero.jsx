@@ -41,10 +41,10 @@ function Hero() {
             </p>
             <a href="https://online.anyflip.com/hxrnl/xlbo/mobile/index.html">
               <button
-                type="button"
-                style={{ backgroundColor: '#011638' }}
-                className="btn btn-primary"
-                >
+              type="button"
+              style={{ backgroundColor: '#011638' }}
+              className="btn btn-primary"
+              >
                 Read more
               </button>
             </a>
