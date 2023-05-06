@@ -18,7 +18,7 @@ const CommentsForm = ({ slug }) => {
       name: window.localStorage.getItem('name'),
       email: window.localStorage.getItem('email'),
       storeData:
-        window.localStorage.getItem('name') 
+        window.localStorage.getItem('name')
         || window.localStorage.getItem('email'),
     };
     setFormData(initalFormData);
