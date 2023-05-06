@@ -69,7 +69,7 @@ function Hero() {
                     To provide a deeper perspective to the things of the world.
                   </p>
                 </div>
-                <Link href="/aboutus">
+                <Link href="/about">
                   <button
                     type="button"
                     style={{ backgroundColor: '#153579' }}
@@ -100,7 +100,7 @@ function Hero() {
                     To increase understanding through deep analysis.
                   </p>
                 </div>
-                <Link href="/aboutus">
+                <Link href="/about">
                   <button
                     type="button"
                     style={{ backgroundColor: '#153579' }}
