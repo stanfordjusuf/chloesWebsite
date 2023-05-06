@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 function Hero() {
   return (
-    <>
+    <div className="flex flex-col">
       <div
         className="Montserrat hero min-h-screen"
         style={{
@@ -180,7 +180,7 @@ function Hero() {
         </div>
       </div>
       <br />
-    </>
+    </div>
   );
 }
 
