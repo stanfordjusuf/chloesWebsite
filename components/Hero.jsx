@@ -39,11 +39,13 @@ function Hero() {
               it was about. No matter your pick, one thing is clear - the world
               can be cruel.
             </p>
-            <button
-              type="button"
-              style={{ backgroundColor: '#011638' }}
-              className="btn btn-primary"
-            >
+            <a href="https://online.anyflip.com/hxrnl/xlbo/mobile/index.html">
+              <button
+                type="button"
+                style={{ backgroundColor: '#011638' }}
+                className="btn btn-primary"
+              >
+            </a>
               Read more
             </button>
           </div>
