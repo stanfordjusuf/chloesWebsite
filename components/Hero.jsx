@@ -157,7 +157,7 @@ function Hero() {
       >
         <div className="hero-content flex-col lg:flex-row">
           <img
-            src="https://i.ibb.co/nrSwx8Y/Screenshot-2023-04-01-at-18-36-47-removebg-preview.png"
+            src="https://i.ibb.co/vBJ1drR/Whats-App-Image-2023-05-21-at-17-10-56.jpg"
             className="max-w-sm rounded-lg shadow-2xl"
           />
           <div>
@@ -169,13 +169,15 @@ function Hero() {
               express themselves in order to strengthen our community. Come and
               join us as we explore unusual, but no less entertaining, topics!
             </p>
-            <button
-              type="button"
-              style={{ backgroundColor: '#153579' }}
-              className="btn btn-primary"
-            >
-              Check Out Our Spotify
-            </button>
+            <a href="https://open.spotify.com/show/2yr13kQhIZD7XsAmRjtRri?si=7f1hfNNKSs6VkM_nTtvDHw">
+              <button
+                type="button"
+                style={{ backgroundColor: '#153579' }}
+                className="btn btn-primary"
+              >
+                Check Out Our Spotify
+              </button>
+            <a/>
           </div>
         </div>
       </div>
