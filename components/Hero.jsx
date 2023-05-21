@@ -177,7 +177,7 @@ function Hero() {
               >
                 Check Out Our Spotify
               </button>
-            <a/>
+            </a>
           </div>
         </div>
       </div>
